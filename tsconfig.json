@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES6",
     "module": "ESNext",
     "lib": ["ESNext", "ScriptHost"],
     "typeRoots": ["node_modules/@types"],
@@ -26,7 +26,11 @@
     "packages/*/scripts/**/*",
     "packages/*/__tests__/**/*",
     "packages/*/lib/**/*",
-    "packages/*/src/**/*"
+    "packages/*/src/**/*",
+    "packages/*/*.js",
+    "lib/**/*",
+    "src/**/*",
+    "*.js"
   ],
   "exclude": [
     "node_modules",
